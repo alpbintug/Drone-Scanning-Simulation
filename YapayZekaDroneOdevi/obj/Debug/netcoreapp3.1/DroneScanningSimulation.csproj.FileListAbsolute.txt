@@ -1,0 +1,15 @@
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\bin\Debug\netcoreapp3.1\DroneScanningSimulation.exe
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\bin\Debug\netcoreapp3.1\DroneScanningSimulation.deps.json
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\bin\Debug\netcoreapp3.1\DroneScanningSimulation.runtimeconfig.json
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\bin\Debug\netcoreapp3.1\DroneScanningSimulation.runtimeconfig.dev.json
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\bin\Debug\netcoreapp3.1\DroneScanningSimulation.dll
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\bin\Debug\netcoreapp3.1\DroneScanningSimulation.pdb
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\obj\Debug\netcoreapp3.1\DroneScanningSimulation.csprojAssemblyReference.cache
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\obj\Debug\netcoreapp3.1\YapayZekaDroneOdevi.Anamenu.resources
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\obj\Debug\netcoreapp3.1\DroneScanningSimulation.csproj.GenerateResource.cache
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\obj\Debug\netcoreapp3.1\DroneScanningSimulation.AssemblyInfoInputs.cache
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\obj\Debug\netcoreapp3.1\DroneScanningSimulation.AssemblyInfo.cs
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\obj\Debug\netcoreapp3.1\DroneScanningSimulation.csproj.CoreCompileInputs.cache
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\obj\Debug\netcoreapp3.1\DroneScanningSimulation.dll
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\obj\Debug\netcoreapp3.1\DroneScanningSimulation.pdb
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\obj\Debug\netcoreapp3.1\DroneScanningSimulation.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\bin\Debug\netcoreapp3.1\YapayZekaDroneOdevi.exe
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\bin\Debug\netcoreapp3.1\YapayZekaDroneOdevi.deps.json
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\bin\Debug\netcoreapp3.1\YapayZekaDroneOdevi.runtimeconfig.json
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\bin\Debug\netcoreapp3.1\YapayZekaDroneOdevi.runtimeconfig.dev.json
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\bin\Debug\netcoreapp3.1\YapayZekaDroneOdevi.dll
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\bin\Debug\netcoreapp3.1\YapayZekaDroneOdevi.pdb
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\obj\Debug\netcoreapp3.1\YapayZekaDroneOdevi.csprojAssemblyReference.cache
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\obj\Debug\netcoreapp3.1\YapayZekaDroneOdevi.Anamenu.resources
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\obj\Debug\netcoreapp3.1\YapayZekaDroneOdevi.csproj.GenerateResource.cache
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\obj\Debug\netcoreapp3.1\YapayZekaDroneOdevi.AssemblyInfoInputs.cache
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\obj\Debug\netcoreapp3.1\YapayZekaDroneOdevi.AssemblyInfo.cs
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\obj\Debug\netcoreapp3.1\YapayZekaDroneOdevi.csproj.CoreCompileInputs.cache
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\obj\Debug\netcoreapp3.1\YapayZekaDroneOdevi.dll
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\obj\Debug\netcoreapp3.1\YapayZekaDroneOdevi.pdb
+D:\Okul\GitHub Material\VisualStudioProjects\YapayZekaDroneOdevi\YapayZekaDroneOdevi\obj\Debug\netcoreapp3.1\YapayZekaDroneOdevi.genruntimeconfig.cache

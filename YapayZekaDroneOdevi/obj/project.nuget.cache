@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xY9+QuY42er+Yr3u05liCXYCVexm9RfCse4jOpWq9Z2/QoZBbT2LN4ie7ROxQzY6WM1D7oUeC9PSaFEOeH4ZxA==",
+  "success": true,
+  "projectFilePath": "D:\\Okul\\GitHub Material\\VisualStudioProjects\\YapayZekaDroneOdevi\\YapayZekaDroneOdevi\\DroneScanningSimulation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MR1SP\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
