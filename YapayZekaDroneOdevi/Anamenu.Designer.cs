@@ -36,6 +36,9 @@ namespace YapayZekaDroneOdevi
             this.cmbBoxDroneCount = new System.Windows.Forms.ComboBox();
             this.labelDroneLocation = new System.Windows.Forms.Label();
             this.buttonToggleTimer = new System.Windows.Forms.Button();
+            this.buttonReset = new System.Windows.Forms.Button();
+            this.labelGenCount = new System.Windows.Forms.Label();
+            this.labelLastGenInfo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // panelCizim
@@ -44,6 +47,10 @@ namespace YapayZekaDroneOdevi
             this.panelCizim.Name = "panelCizim";
             this.panelCizim.Size = new System.Drawing.Size(900, 900);
             this.panelCizim.TabIndex = 0;
+            // 
+            // timerRefresh
+            // 
+            this.timerRefresh.Interval = 10;
             // 
             // labelDroneCount
             // 
@@ -100,12 +107,50 @@ namespace YapayZekaDroneOdevi
             this.buttonToggleTimer.Text = "Start";
             this.buttonToggleTimer.UseVisualStyleBackColor = false;
             // 
+            // buttonReset
+            // 
+            this.buttonReset.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.buttonReset.FlatAppearance.BorderSize = 0;
+            this.buttonReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonReset.ForeColor = System.Drawing.Color.Gold;
+            this.buttonReset.Location = new System.Drawing.Point(941, 850);
+            this.buttonReset.Name = "buttonReset";
+            this.buttonReset.Size = new System.Drawing.Size(216, 62);
+            this.buttonReset.TabIndex = 5;
+            this.buttonReset.Text = "Reset";
+            this.buttonReset.UseVisualStyleBackColor = false;
+            // 
+            // labelGenCount
+            // 
+            this.labelGenCount.AutoSize = true;
+            this.labelGenCount.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelGenCount.ForeColor = System.Drawing.Color.Orange;
+            this.labelGenCount.Location = new System.Drawing.Point(941, 208);
+            this.labelGenCount.Name = "labelGenCount";
+            this.labelGenCount.Size = new System.Drawing.Size(40, 30);
+            this.labelGenCount.TabIndex = 6;
+            this.labelGenCount.Text = "XD";
+            this.labelGenCount.Visible = false;
+            // 
+            // labelLastGenInfo
+            // 
+            this.labelLastGenInfo.AutoSize = true;
+            this.labelLastGenInfo.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelLastGenInfo.ForeColor = System.Drawing.Color.Orange;
+            this.labelLastGenInfo.Location = new System.Drawing.Point(941, 238);
+            this.labelLastGenInfo.Name = "labelLastGenInfo";
+            this.labelLastGenInfo.Size = new System.Drawing.Size(0, 20);
+            this.labelLastGenInfo.TabIndex = 7;
+            // 
             // Anamenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.ClientSize = new System.Drawing.Size(1175, 926);
+            this.Controls.Add(this.labelLastGenInfo);
+            this.Controls.Add(this.labelGenCount);
+            this.Controls.Add(this.buttonReset);
             this.Controls.Add(this.buttonToggleTimer);
             this.Controls.Add(this.labelDroneLocation);
             this.Controls.Add(this.cmbBoxDroneCount);
@@ -130,6 +175,9 @@ namespace YapayZekaDroneOdevi
         public System.Windows.Forms.Label labelDroneLocation;
         public System.Windows.Forms.ComboBox cmbBoxDroneCount;
         public System.Windows.Forms.Button buttonToggleTimer;
+        public System.Windows.Forms.Button buttonReset;
+        public System.Windows.Forms.Label labelGenCount;
+        public System.Windows.Forms.Label labelLastGenInfo;
     }
 }
 
