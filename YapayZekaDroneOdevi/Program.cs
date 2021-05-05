@@ -19,7 +19,7 @@ namespace YapayZekaDroneOdevi
         private static int[] currentGenScores = new int[populationCount];
         private static double mutationRate = 0.01;
         private static int totalMoves = 0;
-        private static int maxMoves = 40;
+        private static int maxMoves = 80;
         private static Point startingPoint;
         private static int droneCount = -1;
         private static int generationCount = 0;
@@ -128,6 +128,7 @@ namespace YapayZekaDroneOdevi
                 tiles[startingPoint.X, startingPoint.Y].Drones.Add(new Drone(droneStrings[random.Next(0, droneStrings.Length)], droneColors[i]));
                 tiles[startingPoint.X, startingPoint.Y].Drones[i].BestGenParent = random.Next(populationCount);
             }
+            maxMoves = 80 / droneCount;
         }
         static void selectTile(object sender,MouseEventArgs e, Anamenu anamenu, Bitmap bm, Tile[,] tiles, Font droneFont)
         {
@@ -227,7 +228,6 @@ namespace YapayZekaDroneOdevi
                 sumScore = 0;
                 for (totalMoves = 0; totalMoves < maxMoves; totalMoves++)
                 {
-
                     for (i = 0; i < 9; i++)
                     {
                         for (j = 0; j < 9; j++)
@@ -287,7 +287,6 @@ namespace YapayZekaDroneOdevi
                     {
                         if (tiles[i, j].Drones.Count > 0)
                         {
-
                             foreach (var item in tiles[i, j].Drones)
                             {
                                 drones.Add(item);
@@ -369,6 +368,14 @@ namespace YapayZekaDroneOdevi
                         selectedIndicies.Add(i);
                     }
                 }
+                if (selectedIndicies.Count < populationCount/droneCount)
+                {
+                    for (int i = 0; i < populationCount / droneCount; i++)
+                    {
+                        if (!selectedIndicies.Contains(i))
+                            selectedIndicies.Add(i);
+                    }
+                }
             }
             else //AREA MODE
             {
@@ -379,6 +386,14 @@ namespace YapayZekaDroneOdevi
                     if (random.NextDouble() < (double)currentGenAreas[i] / max && currentGenAreas[i] > mean)
                     {
                         selectedIndicies.Add(i);
+                    }
+                }
+                if (selectedIndicies.Count < populationCount / droneCount)
+                {
+                    for (int i = 0; i < populationCount / droneCount; i++)
+                    {
+                        if (!selectedIndicies.Contains(i))
+                            selectedIndicies.Add(i);
                     }
                 }
             }
